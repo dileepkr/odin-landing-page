@@ -9,6 +9,7 @@ body {
 }
 
 .header, .intro-banner {
+    flex: 1;
     background-color: #1F2937;
     width: 100%;
 }
@@ -99,6 +100,7 @@ a {
 }
 
 .info-banner, .signup-banner {
+    flex: 1;
     background-color: white;
     width: 100%;
 }
@@ -153,6 +155,7 @@ a {
 }
 
 .text-quote-banner {
+    flex: 1;
     background-color: #e5e7eb;
     width: 100%;
 }
