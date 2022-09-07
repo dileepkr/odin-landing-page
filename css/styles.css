@@ -1,0 +1,232 @@
+* {
+    font-family: 'Lucida Grande', Geneva, Tahoma, 'Trebuchet MS', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header, .intro-banner {
+    background-color: #1F2937;
+    width: 100%;
+}
+.header-flex {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px;
+    max-width: 1080px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.left-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.left-links li a{
+    color: #babcc1;
+}
+
+.intro-banner-flex {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px;
+    max-width: 1080px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 96px 0px;
+}
+
+.intro {
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.intro-text {
+    color: #babcc1;
+    font-size: 18px;
+}
+.intro-img {
+    flex: 1;
+    display: flex;
+    background-color: #909dae;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: white;
+    max-width: 512px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    width: 128px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 0px;
+}
+
+.info-banner, .signup-banner {
+    background-color: white;
+    width: 100%;
+}
+
+.info-banner-flex {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px;
+    max-width: 1080px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px 0px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 0px;
+}
+
+.info-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 56px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-img {
+    border: 4px solid;
+    border-radius: 12px;
+    width: 172px; 
+    /* max-width: 172px;  */
+    height: auto;
+    border-color: #3882f6;
+}
+
+.info-text {
+    color: #909dae ;
+    text-align: center;
+    width: 172px;
+}
+
+.text-quote-banner {
+    background-color: #e5e7eb;
+    width: 100%;
+}
+
+.quote-flex {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 96px 0;
+    flex-wrap: wrap;
+}
+
+.quote-text {
+    flex: 1;
+    display: flex;
+    white-space: initial;
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-signature {
+    flex: 1;
+    font-size: 24px;
+    text-align: end;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    display: flex;
+    width: 1080px;
+    margin: 96px auto;
+    background-color: #3882f6;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding: 48px 0px;
+    flex-wrap: wrap;
+}
+
+.action-header {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+.action-text {
+    margin: 0;
+    margin-top: 5px;
+    color: #cfd6e0;
+}
+
+.action-signup-btn {
+    background-color: #3882f6;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 28px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #c5c6ca;
+    padding: 24px 0;
+}
